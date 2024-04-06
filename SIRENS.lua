@@ -52,14 +52,14 @@ SIRENS = {
 	--[[12]]  { Name = 'Fire Horn', 	String = 'VEHICLES_HORNS_FIRETRUCK_WARNING', 			Ref = 0 }, --12
 	--[[13]]  { Name = 'Fire Yelp', 	String = 'RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01', 	Ref = 0 }, --13
 	--[[14]]  { Name = 'Fire Wail', 	String = 'RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01', 	Ref = 0 }, --14
-  { Name = 'LSPD Airhorn', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_HORN', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
-  { Name = 'LSPD Wail', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_ADAM', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
-  { Name = 'LSPD Yelp', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_BOY', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
-  { Name = 'LSPD Priority', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_CHARLES', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
-  { Name = 'LSFD Airhorn', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_HORN', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
-  { Name = 'LSFD Wail', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_ADAM', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
-  { Name = 'LSFD Yelp', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_BOY', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
-  { Name = 'LSFD Priority', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_CHARLES', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
+  { Name = 'Epsilon Airhorn', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_HORN', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
+  { Name = 'Epsilon Wail', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_ADAM', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
+  { Name = 'Epsilon Yelp', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_BOY', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
+  { Name = 'Epsilon Priority', 	String = 'OISS_SSA_VEHAUD_LSPD_NEW_SIREN_CHARLES', 	Ref = 'OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET' },
+  { Name = 'Fire Airhorn', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_HORN', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
+  { Name = 'Fire Wail', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_ADAM', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
+  { Name = 'Fire Yelp', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_BOY', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
+  { Name = 'Fire Priority', 	String = 'OISS_SSA_VEHAUD_LSFD_NEW_SIREN_CHARLES', 	Ref = 'OISS_SSA_VEHAUD_LSFD_NEW_SOUNDSET' },
 }
 
 --ASSIGN SIRENS TO VEHICLES
@@ -67,13 +67,9 @@ SIREN_ASSIGNMENTS = {
 	--['<gameName>'] = {tones},
 	--['DEFAULT'] = { 1, 2, 3, 4 }, 
   ['DEFAULT'] = { 15, 16, 17, 18 }, 
-	['KFD1'] = { 19, 20, 21, 22 }, 
-  ['KFD2'] = { 19, 20, 21, 22 },
-  ['KFD3'] = { 19, 20, 21, 22 },
 	['amr13fpiu'] = { 15, 16, 17, 22 },
   ['amr16fpiu'] = { 15, 16, 17, 22 }, 
   ['amr18tahoe'] = { 15, 16, 17, 22 }, 
   ['amrf150'] = { 15, 16, 17, 22 }, 
   ['amrf250'] = { 15, 16, 17, 22 }, 
-	['LGUARD'] = { 15, 16, 17, 22 },
 }

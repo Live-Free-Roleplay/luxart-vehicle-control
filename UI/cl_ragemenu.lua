@@ -87,6 +87,20 @@ Keys.Register(open_menu_key, 'lvc', Lang:t('control.menu_desc'), function()
 	end
 end)
 
+RegisterCommand('lvc', function(source, args)
+	if not key_lock and player_is_emerg_driver and UpdateOnscreenKeyboard() ~= 0 then
+		if UTIL:GetVehicleProfileName() == 'DEFAULT' then
+			local veh_name = GetDisplayNameFromVehicleModel(GetEntityModel(veh))
+			sl_btn_debug_msg = Lang:t('menu.storage_default_profile_msg', {veh = veh_name})
+		else
+			sl_btn_debug_msg = ''
+		end
+		tone_table = UTIL:GetApprovedTonesTableNameAndID()
+		profiles = STORAGE:GetSavedProfiles()
+		RageUI.Visible(RMenu:Get('lvc', 'main'), not RageUI.Visible(RMenu:Get('lvc', 'main')))
+	end
+end)
+
 ---------------------------------------------------------------------
 -- Triggered when vehicle changes (cl_lvc.lua)
 RegisterNetEvent('lvc:onVehicleChange')
