@@ -1,10 +1,10 @@
 --------------------COMMUNITY ID-------------------
-community_id = ''
+community_id = 'LFRP'
 --	Sets a prefix for saved values at the user end, without this people who play on multiple LVC server could face conflicts. **Once set DO NOT CHANGE. It will result in loss of data for end users.**
 --		I recommend something short (4-6 characters) for example a community abbreviation. SPACES ARE NOT ALLOWED.
 
 ------------------MENU KEYBINDING------------------
-open_menu_key = 'O'
+open_menu_key = ''
 --	Sets default key for RegisterKeyMapping. Examples: 'l','F5', etc. DEFAULT: 'O', users may set one in their GTA V > Settings > Hotkeys > FiveM settings. 
 --		More info: https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/
 --		List of Keys: https://pastebin.com/u9ewvWWZ
@@ -21,7 +21,7 @@ reminder_rate = 10
 --	How often, in luxart key presses, to remind you that your siren controller is locked.
 
 -----------------HUD FUNCTIONALITY-----------------
-hud_first_default = true
+hud_first_default = false
 --	First state of HUD, otherwise it uses the players KVP setting (previous state). 
 
 ---------------MAIN SIREN SETTINGS-----------------
@@ -50,10 +50,10 @@ main_siren_set_register_keys_set_defaults = true
 
 
 --------------TURN SIGNALS / HAZARDS---------------
-hazard_key = 202	
+hazard_key = 194	
 left_signal_key = 84
 right_signal_key = 83
-hazard_hold_duration = 750
+hazard_hold_duration = 0
 --	Time in milliseconds backspace must be pressed to turn on / off hazard lights. 
 
 
